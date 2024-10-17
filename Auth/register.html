@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="registration.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+   <title>Responsive Regisration Form </title>
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="reg.php" method="POST" enctype="multipart/form-data">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="name">Full Name<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="username">UserName<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter your Username" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="password">Password<span class="red">*</span></label>
+                            <input type="password" placeholder="Enter password" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label  for="phone">Mobile Number<span class="red">*</span></label>
+                            <input type="number" placeholder="Enter your mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender<span class="red">*</span></label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="email">Email<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter your Email" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="birthday">Birthday<span class="red">*</span></label>
+                            <input type="date" placeholder="Enter your Birthday" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="freelancer">Freelancer Status<span class="red">*</span></label>
+                            <select required>
+                                <option disabled selected>Select Staus</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>    
+                        </div>
+                        <div class="input-field">
+                            <label for="email">Email<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter your Email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="city">State<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter State" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="address">Address<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter your Address" required>
+                        </div>
+                        <div class="input-field">
+                        </div>
+                    </div>
+                        <span class="title">Professional Details</span>
+                        
+                    <div class="new">
+                        <div class="input-field">
+                            <label for="title">Job Title<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter Job Title" required>
+                        </div>
+                    
+                        <div class="input-field">
+                            <label for="degree">Degree<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter your Degree Name" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label for="description">Job Description<span class="red">*</span></label>
+                            <textarea rows="4" placeholder="Enter your Job Description" required></textarea>
+                        </div>
+                        
+
+                        <div class="input-field">
+                            <label for="degree_details">Degree Details<span class="red">*</span></label>
+                            <textarea rows="4" placeholder="Enter Degree Details" required"></textarea>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="skills">Skills<span class="red">*</span></label>
+                            <input type="text" placeholder="Html,Css,C++ etc" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="projects">Projects<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter ward number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="interests">Interests<span class="red">*</span></label>
+                            <input type="text" placeholder="Enter your Interests" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="testimonials">Testimonials</label>
+                            <input type="text" placeholder="Enter your testimonials(if any)">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="experience">Experience</label>
+                            <input type="text" placeholder="Enter your experience(if any)">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="services">Services</label>
+                            <input type="text" placeholder="Enter you Services(if any)">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Social Media</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="instagram">Instagram</label>
+                            <input type="text" placeholder="Enter Instagram Link">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="facebook">Facebook</label>
+                            <input type="text" placeholder="Enter Facebook Link">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="twitter">Twitter</label>
+                            <input type="text" placeholder="Enter Twitter Link">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="linkedin">LinkedIn</label>
+                            <input type="text" placeholder="Enter LinkedIn Link">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="youtube">YouTube</label>
+                            <input type="text" placeholder="Enter YouTube Link">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="github">GitHub</label>
+                            <input type="text" placeholder="Enter GitHub Link">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="website">Website</label>
+                            <input type="text" placeholder="Enter your Website Link(if any)">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="youtube">YouTube</label>
+                            <input type="text" placeholder="Enter YouTube Link">
+                        </div>
+                        <div class="input-field">
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText" name="register">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
